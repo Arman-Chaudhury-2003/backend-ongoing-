@@ -1,8 +1,3 @@
-// import dotenv from "dotenv";
-// //dotenv gonfig
-// dotenv.config({
-//   path: "./.env",
-// });
 import {
   ACCESS_TOKEN_EXPIRY,
   ACCESS_TOKEN_SECRET,
