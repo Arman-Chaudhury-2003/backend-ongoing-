@@ -9,7 +9,7 @@ import { PORT } from "./config.js";
 connectDB()
   .then(() => {
     app.listen(PORT || 8000, () => {
-      console.log(`server is running at port: ${process.env.PORT}`);
+      console.log(`server is running at port: ${PORT}`);
     });
   })
 
