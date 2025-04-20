@@ -27,7 +27,6 @@ router.route("/register").post(
 router.route("/login").post(loginUser);
 
 //secured routes (work done after user is logged in)
-//jwtverify hobe trpr logout screen e jabe user
 router.route("/logout").post(verifyJWT, logoutUser); //verifyJWT er por logoutUser gets executed because of the next() flag that we used ./middlewares/auth.middleware.js
 router.route("/refresh-token").post(refreshAccessToken);
 
